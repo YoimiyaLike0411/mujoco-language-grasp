@@ -1,0 +1,65 @@
+{
+  "schema_version": 2,
+  "task": "Five newly sampled seeds; one case per task per seed; policy frozen V3",
+  "episodes": [
+    {
+      "episode_id": "random_task3_977989",
+      "instruction": "\u628a\u6240\u6709\u6c34\u679c\u653e\u8fdb\u5706\u76d8\uff0c\u628a\u6240\u6709\u5305\u88c5\u98df\u54c1\u653e\u8fdb\u65b9\u76d8\u3002",
+      "target": "apple",
+      "targets": [
+        "apple",
+        "orange",
+        "mustard_bottle",
+        "potted_meat_can"
+      ],
+      "destinations": [
+        "round_tray",
+        "round_tray",
+        "square_tray",
+        "square_tray"
+      ],
+      "seed": 977989
+    },
+    {
+      "episode_id": "random_task1_977989",
+      "instruction": "\u8bf7\u5c06\u84dd\u8272\u957f\u65b9\u4f53\u653e\u5165\u5706\u5f62\u76d8\u5b50\u3002",
+      "target": "blue_box",
+      "destination": "round_tray",
+      "seed": 977989,
+      "scene_objects": [
+        "red_cube",
+        "green_cylinder",
+        "blue_box"
+      ]
+    },
+    {
+      "episode_id": "random_task2_977989",
+      "instruction": "\u6293\u53d6\u7ea2\u82f9\u679c\uff0c\u653e\u5230\u9ec4\u8272\u65b9\u76d8\u4e2d\u3002",
+      "target": "apple",
+      "destination": "square_tray",
+      "seed": 977989,
+      "scene_objects": [
+        "banana",
+        "apple"
+      ]
+    },
+    {
+      "episode_id": "random_task3_874694",
+      "instruction": "\u628a\u6240\u6709\u6c34\u679c\u653e\u8fdb\u5706\u76d8\uff0c\u628a\u6240\u6709\u5305\u88c5\u98df\u54c1\u653e\u8fdb\u65b9\u76d8\u3002",
+      "target": "apple",
+      "targets": [
+        "apple",
+        "orange",
+        "mustard_bottle",
+        "potted_meat_can"
+      ],
+      "destinations": [
+        "round_tray",
+        "round_tray",
+        "square_tray",
+        "square_tray"
+      ],
+      "seed": 874694
+    }
+  ]
+}

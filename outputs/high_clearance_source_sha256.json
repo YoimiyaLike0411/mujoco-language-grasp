@@ -1,0 +1,12 @@
+{
+  "policies/__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+  "policies/cad_geometry.py": "f5920dc7aa2c0bf04eabd31ba635b4a16bb8cb83184214ac982c0d4e39935443",
+  "policies/fruit_tracking.py": "13165cf0873567c548c3607f06ac628ee5eb97dca12f437a579772feb9f66c2e",
+  "policies/grasp_geometry.py": "d901e88248a947a8ee4ce834dfc3facabe65a41b5950866446fc1fd67b353830",
+  "policies/grounding.py": "aa4a6a1cf7f0421dbff48b31e0016b3f41c488a7b86e09d7f1296bf8afe1e085",
+  "policies/motion.py": "98a41ff3790cb7331a95ee7dce86329308b8d18c07cb70a669cf43bd5dad8a0c",
+  "policies/placed_surface.py": "75a887047b2342ca5fa7e21b4a269a74f4c7397aef4a912ced406b548debd57a",
+  "policies/student_policy.py": "7af30807040c1158ef8591e549439ce1a1a5441026cd15fa7e43048e79c41dd5",
+  "policies/vla_template.py": "1bca57135f38f58ae31956a138ece35032be498e8ef0d92707ae52b47e16f710",
+  "policies/vlm_ik_template.py": "04abbce7bc4320bf222c413b7210899ca80e7834e80250e3075c49a73e8891c5"
+}

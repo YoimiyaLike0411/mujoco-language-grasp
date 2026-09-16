@@ -1,0 +1,288 @@
+{
+  "sources_sha256": {
+    "policies/__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "policies/cad_geometry.py": "f5920dc7aa2c0bf04eabd31ba635b4a16bb8cb83184214ac982c0d4e39935443",
+    "policies/fruit_tracking.py": "13165cf0873567c548c3607f06ac628ee5eb97dca12f437a579772feb9f66c2e",
+    "policies/grasp_geometry.py": "79893410df73995ff2a44e9d15ff33403af95ca2973d500226634802ec401822",
+    "policies/grounding.py": "aa4a6a1cf7f0421dbff48b31e0016b3f41c488a7b86e09d7f1296bf8afe1e085",
+    "policies/motion.py": "8bfea4e0111538bf52fe3aacba048db19b1022a717236cb40b831cd6796a0ad8",
+    "policies/placed_surface.py": "75a887047b2342ca5fa7e21b4a269a74f4c7397aef4a912ced406b548debd57a",
+    "policies/student_policy.py": "02448b93db8b784f6dd0b9e7672203b786e06bebc35c5848038e270e3fc0fcd1",
+    "policies/vla_template.py": "1bca57135f38f58ae31956a138ece35032be498e8ef0d92707ae52b47e16f710",
+    "policies/vlm_ik_template.py": "04abbce7bc4320bf222c413b7210899ca80e7834e80250e3075c49a73e8891c5"
+  },
+  "original_files_verified": true,
+  "tests_passed": 47,
+  "episodes": [
+    {
+      "suite": "公开种子",
+      "episode": "t1_public_001",
+      "seed": 31,
+      "success": true,
+      "steps": 562,
+      "budget": 800,
+      "unsafe_contacts": 0
+    },
+    {
+      "suite": "公开种子",
+      "episode": "t1_public_002",
+      "seed": 32,
+      "success": true,
+      "steps": 452,
+      "budget": 800,
+      "unsafe_contacts": 0
+    },
+    {
+      "suite": "公开种子",
+      "episode": "t1_public_003",
+      "seed": 33,
+      "success": true,
+      "steps": 435,
+      "budget": 800,
+      "unsafe_contacts": 0
+    },
+    {
+      "suite": "公开种子",
+      "episode": "t1_public_004",
+      "seed": 34,
+      "success": true,
+      "steps": 450,
+      "budget": 800,
+      "unsafe_contacts": 0
+    },
+    {
+      "suite": "公开种子",
+      "episode": "t1_public_005",
+      "seed": 35,
+      "success": true,
+      "steps": 381,
+      "budget": 800,
+      "unsafe_contacts": 0
+    },
+    {
+      "suite": "公开种子",
+      "episode": "t1_public_006",
+      "seed": 36,
+      "success": true,
+      "steps": 451,
+      "budget": 800,
+      "unsafe_contacts": 0
+    },
+    {
+      "suite": "公开种子",
+      "episode": "t2_public_001",
+      "seed": 61,
+      "success": true,
+      "steps": 590,
+      "budget": 800,
+      "unsafe_contacts": 0
+    },
+    {
+      "suite": "公开种子",
+      "episode": "t2_public_002",
+      "seed": 62,
+      "success": true,
+      "steps": 702,
+      "budget": 800,
+      "unsafe_contacts": 0
+    },
+    {
+      "suite": "公开种子",
+      "episode": "t2_public_003",
+      "seed": 63,
+      "success": true,
+      "steps": 580,
+      "budget": 800,
+      "unsafe_contacts": 0
+    },
+    {
+      "suite": "公开种子",
+      "episode": "t2_public_004",
+      "seed": 64,
+      "success": true,
+      "steps": 699,
+      "budget": 800,
+      "unsafe_contacts": 0
+    },
+    {
+      "suite": "公开种子",
+      "episode": "t2_public_005",
+      "seed": 65,
+      "success": true,
+      "steps": 601,
+      "budget": 800,
+      "unsafe_contacts": 0
+    },
+    {
+      "suite": "公开种子",
+      "episode": "t2_public_006",
+      "seed": 66,
+      "success": true,
+      "steps": 730,
+      "budget": 800,
+      "unsafe_contacts": 0
+    },
+    {
+      "suite": "公开种子",
+      "episode": "t3_public_001",
+      "seed": 91,
+      "success": true,
+      "steps": 2524,
+      "budget": 3000,
+      "unsafe_contacts": 0
+    },
+    {
+      "suite": "公开种子",
+      "episode": "t3_public_002",
+      "seed": 92,
+      "success": true,
+      "steps": 2792,
+      "budget": 3000,
+      "unsafe_contacts": 0
+    },
+    {
+      "suite": "公开种子",
+      "episode": "t3_public_003",
+      "seed": 93,
+      "success": true,
+      "steps": 2582,
+      "budget": 3000,
+      "unsafe_contacts": 0
+    },
+    {
+      "suite": "额外种子 1234、2027、4093",
+      "episode": "extra_task1_blue_box_1234",
+      "seed": 1234,
+      "success": true,
+      "steps": 519,
+      "budget": 800,
+      "unsafe_contacts": 0
+    },
+    {
+      "suite": "额外种子 1234、2027、4093",
+      "episode": "extra_task1_blue_box_2027",
+      "seed": 2027,
+      "success": true,
+      "steps": 534,
+      "budget": 800,
+      "unsafe_contacts": 0
+    },
+    {
+      "suite": "额外种子 1234、2027、4093",
+      "episode": "extra_task1_green_cylinder_1234",
+      "seed": 1234,
+      "success": true,
+      "steps": 574,
+      "budget": 800,
+      "unsafe_contacts": 0
+    },
+    {
+      "suite": "额外种子 1234、2027、4093",
+      "episode": "extra_task1_green_cylinder_2027",
+      "seed": 2027,
+      "success": true,
+      "steps": 370,
+      "budget": 800,
+      "unsafe_contacts": 0
+    },
+    {
+      "suite": "额外种子 1234、2027、4093",
+      "episode": "extra_task1_red_cube_1234",
+      "seed": 1234,
+      "success": true,
+      "steps": 397,
+      "budget": 800,
+      "unsafe_contacts": 0
+    },
+    {
+      "suite": "额外种子 1234、2027、4093",
+      "episode": "extra_task1_red_cube_2027",
+      "seed": 2027,
+      "success": true,
+      "steps": 591,
+      "budget": 800,
+      "unsafe_contacts": 0
+    },
+    {
+      "suite": "额外种子 1234、2027、4093",
+      "episode": "extra_task2_apple_1234",
+      "seed": 1234,
+      "success": true,
+      "steps": 760,
+      "budget": 800,
+      "unsafe_contacts": 0
+    },
+    {
+      "suite": "额外种子 1234、2027、4093",
+      "episode": "extra_task2_apple_2027",
+      "seed": 2027,
+      "success": true,
+      "steps": 694,
+      "budget": 800,
+      "unsafe_contacts": 0
+    },
+    {
+      "suite": "额外种子 1234、2027、4093",
+      "episode": "extra_task2_apple_4093",
+      "seed": 4093,
+      "success": true,
+      "steps": 774,
+      "budget": 800,
+      "unsafe_contacts": 0
+    },
+    {
+      "suite": "额外种子 1234、2027、4093",
+      "episode": "extra_task2_banana_1234",
+      "seed": 1234,
+      "success": true,
+      "steps": 585,
+      "budget": 800,
+      "unsafe_contacts": 0
+    },
+    {
+      "suite": "额外种子 1234、2027、4093",
+      "episode": "extra_task2_banana_2027",
+      "seed": 2027,
+      "success": true,
+      "steps": 573,
+      "budget": 800,
+      "unsafe_contacts": 0
+    },
+    {
+      "suite": "额外种子 1234、2027、4093",
+      "episode": "extra_task2_banana_4093",
+      "seed": 4093,
+      "success": true,
+      "steps": 595,
+      "budget": 800,
+      "unsafe_contacts": 0
+    },
+    {
+      "suite": "额外种子 1234、2027、4093",
+      "episode": "extra_task3_apple_1234",
+      "seed": 1234,
+      "success": true,
+      "steps": 2542,
+      "budget": 3000,
+      "unsafe_contacts": 0
+    },
+    {
+      "suite": "额外种子 1234、2027、4093",
+      "episode": "extra_task3_apple_2027",
+      "seed": 2027,
+      "success": true,
+      "steps": 2534,
+      "budget": 3000,
+      "unsafe_contacts": 0
+    },
+    {
+      "suite": "额外种子 1234、2027、4093",
+      "episode": "extra_task3_apple_4093",
+      "seed": 4093,
+      "success": true,
+      "steps": 2558,
+      "budget": 3000,
+      "unsafe_contacts": 0
+    }
+  ]
+}

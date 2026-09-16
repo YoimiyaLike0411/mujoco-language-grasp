@@ -1,0 +1,53 @@
+{
+  "schema_version": 2,
+  "task": "Time optimization targeted regression",
+  "episodes": [
+    {
+      "episode_id": "random2_task3_197139",
+      "instruction": "把所有水果放进圆盘，把所有包装食品放进方盘。",
+      "target": "apple",
+      "targets": [
+        "apple",
+        "orange",
+        "mustard_bottle",
+        "potted_meat_can"
+      ],
+      "destinations": [
+        "round_tray",
+        "round_tray",
+        "square_tray",
+        "square_tray"
+      ],
+      "seed": 197139
+    },
+    {
+      "episode_id": "random2_task3_835866",
+      "instruction": "把所有水果放进圆盘，把所有包装食品放进方盘。",
+      "target": "apple",
+      "targets": [
+        "apple",
+        "orange",
+        "mustard_bottle",
+        "potted_meat_can"
+      ],
+      "destinations": [
+        "round_tray",
+        "round_tray",
+        "square_tray",
+        "square_tray"
+      ],
+      "seed": 835866
+    },
+    {
+      "episode_id": "random2_task2_874039",
+      "instruction": "Pick up the apple and put it in the square tray.",
+      "target": "apple",
+      "destination": "square_tray",
+      "seed": 874039,
+      "scene_objects": [
+        "banana",
+        "apple"
+      ]
+    }
+  ]
+}

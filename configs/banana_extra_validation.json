@@ -1,0 +1,17 @@
+{
+  "schema_version": 3,
+  "task": "Task 2: textured YCB object pick and place",
+  "episodes": [
+    {
+      "episode_id": "t2_public_001",
+      "instruction": "把香蕉放进圆盘。",
+      "target": "banana",
+      "destination": "round_tray",
+      "seed": 61,
+      "scene_objects": [
+        "banana",
+        "apple"
+      ]
+    }
+  ]
+}

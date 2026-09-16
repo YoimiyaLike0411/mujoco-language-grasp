@@ -1,0 +1,158 @@
+{
+  "schema_version": 2,
+  "task": "Preselected additional layouts, before outcomes were observed",
+  "episodes": [
+    {
+      "episode_id": "extra_task1_red_cube_1234",
+      "instruction": "把红色方块放进方盘。",
+      "target": "red_cube",
+      "destination": "square_tray",
+      "seed": 1234,
+      "scene_objects": [
+        "red_cube",
+        "green_cylinder",
+        "blue_box"
+      ]
+    },
+    {
+      "episode_id": "extra_task1_red_cube_2027",
+      "instruction": "把红色方块放进方盘。",
+      "target": "red_cube",
+      "destination": "square_tray",
+      "seed": 2027,
+      "scene_objects": [
+        "red_cube",
+        "green_cylinder",
+        "blue_box"
+      ]
+    },
+    {
+      "episode_id": "extra_task1_green_cylinder_1234",
+      "instruction": "Place the green cylinder into the round tray.",
+      "target": "green_cylinder",
+      "destination": "round_tray",
+      "seed": 1234,
+      "scene_objects": [
+        "red_cube",
+        "green_cylinder",
+        "blue_box"
+      ]
+    },
+    {
+      "episode_id": "extra_task1_green_cylinder_2027",
+      "instruction": "Place the green cylinder into the round tray.",
+      "target": "green_cylinder",
+      "destination": "round_tray",
+      "seed": 2027,
+      "scene_objects": [
+        "red_cube",
+        "green_cylinder",
+        "blue_box"
+      ]
+    },
+    {
+      "episode_id": "extra_task1_blue_box_1234",
+      "instruction": "请将蓝色长方体放入圆形盘子。",
+      "target": "blue_box",
+      "destination": "round_tray",
+      "seed": 1234,
+      "scene_objects": [
+        "red_cube",
+        "green_cylinder",
+        "blue_box"
+      ]
+    },
+    {
+      "episode_id": "extra_task1_blue_box_2027",
+      "instruction": "请将蓝色长方体放入圆形盘子。",
+      "target": "blue_box",
+      "destination": "round_tray",
+      "seed": 2027,
+      "scene_objects": [
+        "red_cube",
+        "green_cylinder",
+        "blue_box"
+      ]
+    },
+    {
+      "episode_id": "extra_task2_banana_1234",
+      "instruction": "把香蕉放进圆盘。",
+      "target": "banana",
+      "destination": "round_tray",
+      "seed": 1234,
+      "scene_objects": [
+        "banana",
+        "apple"
+      ]
+    },
+    {
+      "episode_id": "extra_task2_banana_2027",
+      "instruction": "把香蕉放进圆盘。",
+      "target": "banana",
+      "destination": "round_tray",
+      "seed": 2027,
+      "scene_objects": [
+        "banana",
+        "apple"
+      ]
+    },
+    {
+      "episode_id": "extra_task2_apple_1234",
+      "instruction": "Place the apple into the square tray.",
+      "target": "apple",
+      "destination": "square_tray",
+      "seed": 1234,
+      "scene_objects": [
+        "banana",
+        "apple"
+      ]
+    },
+    {
+      "episode_id": "extra_task2_apple_2027",
+      "instruction": "Place the apple into the square tray.",
+      "target": "apple",
+      "destination": "square_tray",
+      "seed": 2027,
+      "scene_objects": [
+        "banana",
+        "apple"
+      ]
+    },
+    {
+      "episode_id": "extra_task3_apple_1234",
+      "instruction": "把所有水果放进圆盘，把所有包装食品放进方盘。",
+      "target": "apple",
+      "targets": [
+        "apple",
+        "orange",
+        "mustard_bottle",
+        "potted_meat_can"
+      ],
+      "destinations": [
+        "round_tray",
+        "round_tray",
+        "square_tray",
+        "square_tray"
+      ],
+      "seed": 1234
+    },
+    {
+      "episode_id": "extra_task3_apple_2027",
+      "instruction": "把所有水果放进圆盘，把所有包装食品放进方盘。",
+      "target": "apple",
+      "targets": [
+        "apple",
+        "orange",
+        "mustard_bottle",
+        "potted_meat_can"
+      ],
+      "destinations": [
+        "round_tray",
+        "round_tray",
+        "square_tray",
+        "square_tray"
+      ],
+      "seed": 2027
+    }
+  ]
+}

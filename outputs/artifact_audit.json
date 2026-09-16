@@ -1,0 +1,14 @@
+{
+  "zip_crc_ok": true,
+  "video_frames": 843,
+  "source_hashes_match": true,
+  "episodes_passed": 30,
+  "tests_passed": 47,
+  "files": {
+    "controller_bundle.zip": 46130,
+    "validation_results.json": 7208,
+    "checksums.json": 381,
+    "VERIFICATION_REPORT.md": 2834,
+    "task3_success.mp4": 4911069
+  }
+}

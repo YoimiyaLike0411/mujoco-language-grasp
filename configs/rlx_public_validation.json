@@ -1,0 +1,198 @@
+{
+  "schema_version": 2,
+  "task": "All 15 original public episodes, unchanged specifications",
+  "episodes": [
+    {
+      "episode_id": "t1_public_001",
+      "instruction": "把红色方块放进方盘。",
+      "target": "red_cube",
+      "destination": "square_tray",
+      "seed": 31,
+      "scene_objects": [
+        "red_cube",
+        "green_cylinder",
+        "blue_box"
+      ]
+    },
+    {
+      "episode_id": "t1_public_002",
+      "instruction": "Place the green cylinder into the round tray.",
+      "target": "green_cylinder",
+      "destination": "round_tray",
+      "seed": 32,
+      "scene_objects": [
+        "red_cube",
+        "green_cylinder",
+        "blue_box"
+      ]
+    },
+    {
+      "episode_id": "t1_public_003",
+      "instruction": "请将蓝色长方体放入圆形盘子。",
+      "target": "blue_box",
+      "destination": "round_tray",
+      "seed": 33,
+      "scene_objects": [
+        "red_cube",
+        "green_cylinder",
+        "blue_box"
+      ]
+    },
+    {
+      "episode_id": "t1_public_004",
+      "instruction": "Put the red cube in the round tray.",
+      "target": "red_cube",
+      "destination": "round_tray",
+      "seed": 34,
+      "scene_objects": [
+        "red_cube",
+        "green_cylinder",
+        "blue_box"
+      ]
+    },
+    {
+      "episode_id": "t1_public_005",
+      "instruction": "把绿色圆柱体放到方盘里面。",
+      "target": "green_cylinder",
+      "destination": "square_tray",
+      "seed": 35,
+      "scene_objects": [
+        "red_cube",
+        "green_cylinder",
+        "blue_box"
+      ]
+    },
+    {
+      "episode_id": "t1_public_006",
+      "instruction": "Place the blue rectangular block in the square tray.",
+      "target": "blue_box",
+      "destination": "square_tray",
+      "seed": 36,
+      "scene_objects": [
+        "red_cube",
+        "green_cylinder",
+        "blue_box"
+      ]
+    },
+    {
+      "episode_id": "t2_public_001",
+      "instruction": "把香蕉放进圆盘。",
+      "target": "banana",
+      "destination": "round_tray",
+      "seed": 61,
+      "scene_objects": [
+        "banana",
+        "apple"
+      ]
+    },
+    {
+      "episode_id": "t2_public_002",
+      "instruction": "Place the apple into the square tray.",
+      "target": "apple",
+      "destination": "square_tray",
+      "seed": 62,
+      "scene_objects": [
+        "banana",
+        "apple"
+      ]
+    },
+    {
+      "episode_id": "t2_public_003",
+      "instruction": "请将黄色香蕉夹起并放入紫色圆盘。",
+      "target": "banana",
+      "destination": "round_tray",
+      "seed": 63,
+      "scene_objects": [
+        "banana",
+        "apple"
+      ]
+    },
+    {
+      "episode_id": "t2_public_004",
+      "instruction": "抓取红苹果，放到黄色方盘中。",
+      "target": "apple",
+      "destination": "square_tray",
+      "seed": 64,
+      "scene_objects": [
+        "banana",
+        "apple"
+      ]
+    },
+    {
+      "episode_id": "t2_public_005",
+      "instruction": "Move the yellow banana to the round tray.",
+      "target": "banana",
+      "destination": "round_tray",
+      "seed": 65,
+      "scene_objects": [
+        "banana",
+        "apple"
+      ]
+    },
+    {
+      "episode_id": "t2_public_006",
+      "instruction": "Pick up the apple and put it in the square tray.",
+      "target": "apple",
+      "destination": "square_tray",
+      "seed": 66,
+      "scene_objects": [
+        "banana",
+        "apple"
+      ]
+    },
+    {
+      "episode_id": "t3_public_001",
+      "instruction": "把所有水果放进圆盘，把所有包装食品放进方盘。",
+      "target": "apple",
+      "targets": [
+        "apple",
+        "orange",
+        "mustard_bottle",
+        "potted_meat_can"
+      ],
+      "destinations": [
+        "round_tray",
+        "round_tray",
+        "square_tray",
+        "square_tray"
+      ],
+      "seed": 91
+    },
+    {
+      "episode_id": "t3_public_002",
+      "instruction": "Sort the fruit into the round tray and the packaged food into the square tray.",
+      "target": "apple",
+      "targets": [
+        "apple",
+        "orange",
+        "mustard_bottle",
+        "potted_meat_can"
+      ],
+      "destinations": [
+        "round_tray",
+        "round_tray",
+        "square_tray",
+        "square_tray"
+      ],
+      "seed": 92
+    },
+    {
+      "episode_id": "t3_public_003",
+      "instruction": "请把苹果和橙子归到圆盘；芥末瓶和午餐肉罐归到方盘。",
+      "target": "apple",
+      "targets": [
+        "apple",
+        "orange",
+        "mustard_bottle",
+        "potted_meat_can"
+      ],
+      "destinations": [
+        "round_tray",
+        "round_tray",
+        "square_tray",
+        "square_tray"
+      ],
+      "seed": 93
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "schema_version": 2,
+  "task": "Five fresh OS-random seeds after high-clearance path revision; one case per task per seed",
+  "episodes": [
+    {
+      "episode_id": "random2_task1_741249",
+      "instruction": "把红色方块放进方盘。",
+      "target": "red_cube",
+      "destination": "square_tray",
+      "seed": 741249,
+      "scene_objects": [
+        "red_cube",
+        "green_cylinder",
+        "blue_box"
+      ]
+    },
+    {
+      "episode_id": "random2_task2_741249",
+      "instruction": "Place the apple into the square tray.",
+      "target": "apple",
+      "destination": "square_tray",
+      "seed": 741249,
+      "scene_objects": [
+        "banana",
+        "apple"
+      ]
+    },
+    {
+      "episode_id": "random2_task3_741249",
+      "instruction": "把所有水果放进圆盘，把所有包装食品放进方盘。",
+      "target": "apple",
+      "targets": [
+        "apple",
+        "orange",
+        "mustard_bottle",
+        "potted_meat_can"
+      ],
+      "destinations": [
+        "round_tray",
+        "round_tray",
+        "square_tray",
+        "square_tray"
+      ],
+      "seed": 741249
+    },
+    {
+      "episode_id": "random2_task1_197139",
+      "instruction": "Place the green cylinder into the round tray.",
+      "target": "green_cylinder",
+      "destination": "round_tray",
+      "seed": 197139,
+      "scene_objects": [
+        "red_cube",
+        "green_cylinder",
+        "blue_box"
+      ]
+    },
+    {
+      "episode_id": "random2_task2_197139",
+      "instruction": "把香蕉放进圆盘。",
+      "target": "banana",
+      "destination": "round_tray",
+      "seed": 197139,
+      "scene_objects": [
+        "banana",
+        "apple"
+      ]
+    },
+    {
+      "episode_id": "random2_task3_197139",
+      "instruction": "把所有水果放进圆盘，把所有包装食品放进方盘。",
+      "target": "apple",
+      "targets": [
+        "apple",
+        "orange",
+        "mustard_bottle",
+        "potted_meat_can"
+      ],
+      "destinations": [
+        "round_tray",
+        "round_tray",
+        "square_tray",
+        "square_tray"
+      ],
+      "seed": 197139
+    },
+    {
+      "episode_id": "random2_task1_835866",
+      "instruction": "请将蓝色长方体放入圆形盘子。",
+      "target": "blue_box",
+      "destination": "round_tray",
+      "seed": 835866,
+      "scene_objects": [
+        "red_cube",
+        "green_cylinder",
+        "blue_box"
+      ]
+    },
+    {
+      "episode_id": "random2_task2_835866",
+      "instruction": "抓取红苹果，放到黄色方盘中。",
+      "target": "apple",
+      "destination": "square_tray",
+      "seed": 835866,
+      "scene_objects": [
+        "banana",
+        "apple"
+      ]
+    },
+    {
+      "episode_id": "random2_task3_835866",
+      "instruction": "把所有水果放进圆盘，把所有包装食品放进方盘。",
+      "target": "apple",
+      "targets": [
+        "apple",
+        "orange",
+        "mustard_bottle",
+        "potted_meat_can"
+      ],
+      "destinations": [
+        "round_tray",
+        "round_tray",
+        "square_tray",
+        "square_tray"
+      ],
+      "seed": 835866
+    },
+    {
+      "episode_id": "random2_task1_849115",
+      "instruction": "Put the red cube in the round tray.",
+      "target": "red_cube",
+      "destination": "round_tray",
+      "seed": 849115,
+      "scene_objects": [
+        "red_cube",
+        "green_cylinder",
+        "blue_box"
+      ]
+    },
+    {
+      "episode_id": "random2_task2_849115",
+      "instruction": "请将黄色香蕉夹起并放入紫色圆盘。",
+      "target": "banana",
+      "destination": "round_tray",
+      "seed": 849115,
+      "scene_objects": [
+        "banana",
+        "apple"
+      ]
+    },
+    {
+      "episode_id": "random2_task3_849115",
+      "instruction": "把所有水果放进圆盘，把所有包装食品放进方盘。",
+      "target": "apple",
+      "targets": [
+        "apple",
+        "orange",
+        "mustard_bottle",
+        "potted_meat_can"
+      ],
+      "destinations": [
+        "round_tray",
+        "round_tray",
+        "square_tray",
+        "square_tray"
+      ],
+      "seed": 849115
+    },
+    {
+      "episode_id": "random2_task1_874039",
+      "instruction": "把绿色圆柱体放到方盘里面。",
+      "target": "green_cylinder",
+      "destination": "square_tray",
+      "seed": 874039,
+      "scene_objects": [
+        "red_cube",
+        "green_cylinder",
+        "blue_box"
+      ]
+    },
+    {
+      "episode_id": "random2_task2_874039",
+      "instruction": "Pick up the apple and put it in the square tray.",
+      "target": "apple",
+      "destination": "square_tray",
+      "seed": 874039,
+      "scene_objects": [
+        "banana",
+        "apple"
+      ]
+    },
+    {
+      "episode_id": "random2_task3_874039",
+      "instruction": "把所有水果放进圆盘，把所有包装食品放进方盘。",
+      "target": "apple",
+      "targets": [
+        "apple",
+        "orange",
+        "mustard_bottle",
+        "potted_meat_can"
+      ],
+      "destinations": [
+        "round_tray",
+        "round_tray",
+        "square_tray",
+        "square_tray"
+      ],
+      "seed": 874039
+    }
+  ]
+}
