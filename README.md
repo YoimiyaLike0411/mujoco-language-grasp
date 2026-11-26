@@ -1,3 +1,16 @@
+# MuJoCo Language-Conditioned Grasping & Dexterous Hand Extension
+
+A closed-loop robotic manipulation project in **MuJoCo** built on **Franka Emika Panda**, combining language-conditioned tabletop grasping/sorting with a **16-DoF Allegro dexterous hand** extension.
+
+## Modules
+
+| Directory | Description |
+| :--- | :--- |
+| **Root (`.` )** | **Language-Conditioned Tabletop Grasping & Sorting** — Franka Panda + 2-finger gripper, SAM3/VLM + dual-camera RGB-D perception, numerical IK, V3 closed-loop controller (54 automated tests, 3-stage public benchmark). |
+| **[`dex_grasp_ext/`](dex_grasp_ext/README.md)** | **16-DoF Allegro Dexterous Hand Extension** — Replaces the 2-finger gripper with MuJoCo Menagerie `wonik_allegro` / `leap_hand`, implementing asset mounting, grasp cage calibration, per-object grasp synthesis, multi-finger synergy control, and closed-loop episode evaluation. |
+
+---
+
 > 随机抽样补测：12/15 通过，其中 Task 3 2/5。随机布局下仍存在失败；详见 outputs/RANDOM_SEED_REPORT_20260915_1.md。此前 30/30 是另一组已测案例，不能据此声称任意随机种子稳健。
 
 > 远端无界面运行可使用 `runtime/run.sh`；版本与实测证据见 `IMPLEMENTATION_STATUS.md`。
